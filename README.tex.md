@@ -208,3 +208,5 @@ For the `png` relative mode, use
     python -m readme2tex --usepackage "tikz" --usepackage "xcolor" --output README.md --branch master --nocdn --pngtrick
 
 ---------------------------------------
+python -m readme2tex --pngtrick --project uavsar_notes --username trm --branch master --svgdir tex --output README.md README.tex.md
+convert -density 1200 -resize 200x200  4cb4ead947a07837121937c807973436.svg 4cb4ead947a07837121937c807973436.png
