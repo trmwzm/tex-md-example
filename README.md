@@ -20,7 +20,7 @@ git push --all origin
 # readme2tex
 Renders LaTeX for Github Readmes
 
-<p align="center"><img alt="$$&#10;\huge\text{Hello \LaTeX}&#10;$$" src="https://rawgit.com/git@github.jpl.nasa.gov:trm/uavsar_notes/None/tex/d27ecd9d6334c7a020001926c8000801.svg?invert_in_darkmode" align=middle width="160.198995pt" height="31.014225pt"/></p>
+<p align="center"><img src="https://rawgit.com/trmwzm/tex-md-example/master//tex/d27ecd9d6334c7a020001926c8000801.svg?invert_in_darkmode" align=middle width=160.198995pt height=31.014225pt/></p>
 
 <sub>**Make sure that pdflatex is installed on your system.**</sub>
 
