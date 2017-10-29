@@ -210,3 +210,5 @@ For the `png` relative mode, use
 ---------------------------------------
 python -m readme2tex --pngtrick --project uavsar_notes --username trm --branch master --svgdir tex --output README.md README.tex.md
 convert -density 1200 -resize 200x200  4cb4ead947a07837121937c807973436.svg 4cb4ead947a07837121937c807973436.png
+inkscape -z -e 162f63774d8a882cc15ae1301cfd8ac0.png -w 300 -h 300 162f63774d8a882cc15ae1301cfd8ac0.svg
+for f in *.svg; do [ -f "$f" ] || break; fname=$(basename $f); pname=${fname%.*}.png ; inkscape -z -e $pname -w 300 -h 300 $fname; done
